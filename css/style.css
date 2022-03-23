@@ -416,6 +416,23 @@ body.offcanvas {
     .colorlib-heading {
       margin-bottom: 3em; } }
 
+
+
+.colorlib-heading2 {
+  font-size: 18px;
+  margin-bottom: 0em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 1.8;
+  position: relative; }
+  .colorlib-heading span {
+    display: block; }
+  @media screen and (max-width: 768px) {
+    .colorlib-heading {
+      margin-bottom: 3em; } }
+
+
 .heading-meta {
   margin-bottom: 15px;
   display: block;
@@ -479,7 +496,7 @@ body.offcanvas {
 
 .panel-heading a:after {
   font-family: "icomoon";
-  content: "\e115";
+  content: "\2191";
   position: absolute;
   right: 20px;
   font-size: 14px;
@@ -489,7 +506,7 @@ body.offcanvas {
   margin-top: -7px; }
 
 .panel-heading a.collapsed:after {
-  content: "\e114"; }
+  content: "\2193"; }
 
 .panel-heading a.collapsed {
   background: #f2f3f7;
@@ -1426,3 +1443,37 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social-icon-div {
+    position: relative;
+    margin-top: 10%;
+    padding: 0px;
+}

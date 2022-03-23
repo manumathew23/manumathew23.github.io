@@ -25,6 +25,8 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -58,76 +60,33 @@
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
 				<h1 id="colorlib-logo"><a href="index.html">Manu Mathew</a></h1>
-				<span class="position"><a href="#">Sr. Python developer</a> in Bangalore</span>
+				<span class="position">Software engineer in Bangalore</span>
 			</div>
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
+						<div class="desc">
+										<a href="assets/resume.pdf" target="_blank" class="btn btn-primary btn-learn" style="margin-top: 20%">Download CV <i class="icon-download4"></i></a>
 					</ul>
 				</div>
+				<div class="text-center social-icon-div">
+					<a href="https://www.linkedin.com/in/manu-mathew/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;color:#0077b5"></i></a>
+					<a style= "color: rgba(0, 0, 0, 0.7)" href="https://github.com/manumathew23"  target="_blank">
+						<i class="fa fa-github" style="font-size:36px"></i></a>
+					<a href="https://twitter.com/manumatew" target="_blank"><i class="fa fa-twitter-square" style="font-size:48px;color:#1DA1F2"></i></a>
+					<a href="https://stackoverflow.com/users/4984769/manu-mathew" target="_blank"><i class="fa fa-stack-overflow" style="color: orange"></i></a>
+				</div>
 			</nav>
-
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-				</ul>
-			</div>
-
 		</aside>
 
 		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1 style="color:white">Hi! <br>I'm Manu Mathew</h1>
-												<p><a href="assets/resume.pdf" target="_blank" class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<h1 style="color:white">I am <br>a Developer</h1>
-												<p><a class="btn btn-primary btn-learn">View Portfolio <i class="icon-briefcase3"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
-
+			
 			<section class="colorlib-about" data-section="about">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -136,203 +95,153 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 								<div class="col-md-12">
 									<div class="about-desc">
 										<h2 class="colorlib-heading">About me</h2>
-										<p> Senior software developer with extensive hands on experience in web application development. Completed engineering in Computer Science from Loyola institute.</p>
-										<p>With an industry experience of around 5 years in sotware development, has gained hands on experience in system design, couple of frontend & backend technologies, databases as well as various tools and practices that makes coding life easy.</p>
-										<p>Currently handling an application backend team in Draup - an AI-Driven enterprise decision making platform in sales and talent domains.</p>
+										<p>I am a software engineer with 7+ years of industry experience extensively into application development.</p>
+										<p>I worked with Python & Django framework for six years, one year in LAMP stack with AngularJS in frontend and PHP frameworks Yii & Laravel in backend. I have good hands-on experiene handling large datasets, database & query optimization and have worked with various databases such as Postgresql, Neo4j, Mysql & Mongodb</p>
+										<p>I am currently working as an engineering lead for an agro based e-commerce platform headquartered in Kochi.</p>
 									</div>
 								</div>
 							</div>
-<!-- 							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>System Design</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Team management</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Database management</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>Application Development</h3>
-									</div>
-								</div>
-							</div> -->
 						</div>
 					</div>
 				</div>
 			</section>
 
 
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 
 			<section class="colorlib-skills" data-section="skills">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
+							<h2 class="colorlib-heading animate-box">Skills</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Photoshop</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="75"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
-								    <span>75%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>jQuery</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>HTML5</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>CSS3</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-								    <span>90%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>WordPress</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>SEO</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Programming languages
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								        <div class="panel-body">
+											<ul><strong>
+												<li>Python</li>
+												<li>PHP</li>
+												<li>Javascript</li>
+												<li>HTML</li>
+												</strong>
+											</ul>
+							        </div>
+						    </div>
 						</div>
 					</div>
-				</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">Frameworks & libraries
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								        <div class="panel-body">
+											<ul><strong>
+												<li>Django & Django rest framework (Python)</li>
+												<li>Jquery, UnderscoreJS</li>
+												<li>AngularJS</li>
+												<li>BackboneJS</li>
+												<li>Laravel (PHP)</li>
+												<li>Yii (PHP)</li>
+												</strong>
+											</ul>
+							        </div>
+						    </div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">Data stores
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								        <div class="panel-body">
+											<ul>
+												<li>RDBMS:<strong> Postgresql, Mysql</strong></li>
+												<li>Graphdb:<strong> Neo4j</strong></li>
+												<li>NoSQL:<strong> MongoDB</strong></li>
+												<li>Key value stores:<strong> Redis, Memcached</strong></li>
+												<li>Full-text search engine:<strong> Elasticsearch</strong></li>
+												<li>Message queue:<strong> RabbitMQ, Redis</strong></li>
+											</ul>
+							        </div>
+						    </div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">Devops & version control systems
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								        <div class="panel-body">
+											<ul>
+												<li>ELK stack - <strong>Elasticsearch, Logstash, Kibana</strong></li>
+												<strong>
+												<li>Jenkins</li>
+												<li>Docker</li></strong>
+												<li>Monitoring: <strong>Datadog, Newrelic</li>
+												<li>Github actions & hooks</li>
+												<li>Capistrano</li>
+												<br>
+												</strong>
+												<li>Git - <strong>Github, Gitlab, Bitbucket</li>
+												<li>Apache subversion</li>
+												</strong>
+											</ul>
+							        </div>
+						    </div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">Other tools & technologies
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								        <div class="panel-body">
+											<ul>
+												<li>Task queuing: <strong>Celery</strong></li>
+												<li>Scheulding: <strong>Celery beat, Django APScheduler, Cron</strong></li>
+											</ul>
+							        </div>
+						    </div>
+						</div>
+					</div>
 			</section>
 
 			<section class="colorlib-education" data-section="education">
@@ -349,36 +258,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEdOne" aria-expanded="false" aria-controls="collapseTwo">Bachelor of engineering in computer science
 									            </a>
 									        </h4>
 									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									    <div id="collapseEdOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
-									            <p>I completed my bachelors degree in  <strong>Computer science engineering</strong>
+									            <p>I completed my bachelors degree<strong> in Computer science engineering</strong>
 									            	from <strong>Loyola Institute, Tamil Nadu, India</strong> in the academica year 2011 - 2015. </p>
 													<ul>
 														<li>Was awarded "Best out going student of the academic year 2011-2015"</li>
-														<li>Major project: Improving reliability in cloud storage solutions</li>
+														<li>Academic project: Improving reliability in cloud storage solutions</li>
 													</ul>
 									        </div>
 									    </div>
-									</div>
-<!-- 									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Diploma in Information Technology
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>	
-									        </div>
-									    </div>
-									</div>
- -->
-	
+									</div>	
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingFive">
 									        <h4 class="panel-title">
@@ -388,7 +282,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									    </div>
 									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
 									        <div class="panel-body">
-									            <p>I completed my entire schooling from <strong>Placid Vidya Vihar </strong> (1999-2011) in Kerala, India<p>
+									            <p>I completed my entire schooling in CBSE syllabus from <strong>Placid Vidya Vihar </strong> (1999-2011) in Kerala, India<p>
 									        </div>
 									    </div>
 									</div>
@@ -402,7 +296,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
 					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">s
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
 							<h2 class="colorlib-heading animate-box">Work Experience</h2>
 						</div>
 					</div>
@@ -417,8 +311,18 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               </div>
 
 					               <div class="timeline-label">
-					                  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-					                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+					                  <h2><a href="#">Engineering lead at Farmers fresh zone</a> <span>2021-2022</span></h2>
+					                  <p>Farmers fresh zone is a direct-to-consumer(D2C) e-commerce application for agro products. FFZ is focussed on bringing transaparency into agro supply chain and ensuring high levels of food quality</p>
+					                  <br>
+					                  <p>FFZ techstack includes:
+					                  	<ul>
+					                  		<li>PHP Codeigniter web application</li>
+				                  			<li>Cross-platform mobile app written in Reactnative with a webview rendering NextJS</li>
+				                  			<li>Python Django application backend</li>
+				                  			<li>Mysql, Redis, Celery</li>
+				                  			<li>Docker, Git - Gitlab, Github</li>
+				                  			<li>New relic monitoring</li>
+			                  			</p>
 					               </div>
 					            </div>
 					         </article>
@@ -430,8 +334,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Senior software engineer at Zinnov (Draup)</a> <span>2018-2021</span></h2>
+					                  <p>Draup is an AI driven sales and talent intelligence platform, previously part of Zinnov management consuling and currently established as an independent private startup.</p>
+					                  <p><ul>
+					                  	<li>Python & Django(DRF)</li>
+					                  	<li>Postgresql, Neo4j, MongoDB, Redis(caching),Elasticsearch</li>
+					                  	<li>AWSEC2 & RDS</li>
+					                  	<li>Nginx & Gunicorn</li>
+					                  	<li>Git, Jenkins, ELK(Elastic,Logstash,Kibana), NewRelic, Datadog</li>
+					                  	<li>Celery & Redis queue</li>
+					                  	<li>Swagger, Freshdesk, Postmark</li></p>
 					               </div>
 					            </div>
 					         </article>
@@ -442,36 +354,40 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					               	<h2><a href="#">Software engineer at Aspire systems</a> <span>2015-2018</span></h2>
+					                  <p>Aspire systems is a service based company where I completed my fresher training and had the opportunity to work in multiple techstacks and three different projects.</p>
+					                  <p><strong>1. Simpletax</strong><br>
+					                  <ul>
+				                  		<li>Python, Django</li>
+					                  	<li>backboneJS, UndersoreJS template engine</li>
+					                  	<li>MySQL</li>
+					                  </ul>
+					              	Online  tax  calculation  portal  with Django & BackboneJS web application and a  tax  calculation  engine  implemented  in  core Python. This  application  has  multiple  third  party  apps and  payment  gateways integrated such as  Zoho,  Stripe  payment,  Twilio,  google  analytics,  segment.io, customer.io, idev etc.
+					              <br></p>
+					              <p>
+					              <strong>2. Guidance reality homes</strong><br>
+					              <ul>
+					              	<li>PHP, Laravel</li>
+					              	<li>AngularJS</li>
+					              	<li>MySQL</li>
+					              	<li>PostrgreSQL</li>
+			          			  </ul>
+					      The  project  is  a  Real  estate  based  web  application meant  to  help  people  find properties  of  their  choice  based  on  location  and  other  preferences  in  US. The application integrates Google maps and allows location based searches with the use of PostgreSQL and elastic search.
+					  </p>
+					  <p>
+					  	<strong>3. Digin</strong><br>
+					  	<ul>
+					  		<li>PHP, Yii</li>
+					  		<li>BackboneJS, Javascript</li>
+					  		<li>Javascript</li>
+					  		<li>MySQL</li>
+				  		</ul>
+					  	The  project  deals  with  distribution  of  sample  products  for  student  community over  various  universities  in  UK.  The  project  allows  user  to  enter  a  code  from the  gift  coupons  they  received  and  discloses  their  gift.  It  then  allows  users  to take a survey based on product.</p>
 					               </div>
 					            </div>
 					         </article>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
+					         
 					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-none">
@@ -484,11 +400,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</section>
 
+<!--
 			<section class="colorlib-work" data-section="work">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
 							<h2 class="colorlib-heading animate-box">Recent Work</h2>
 						</div>
 					</div>
@@ -596,50 +512,51 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					</div>
 				</div>
 			</section>
+-->
 
 			<section class="colorlib-blog" data-section="blog">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
+							<span class="heading-meta">Medium</span>
+							<h2 class="colorlib-heading">Top reads
+							</h2>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="https://medium.com/silicon-tribe-techdev/quickguide-to-optimize-apis-in-django-9949fc9cd42?source=friends_link&sk=7800274bae0c229b26439e9f6e46f140" class="blog-img"><img src="https://miro.medium.com/max/1400/1*sz88vX-fx7g8gAT4QlPwsA.png" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<h3><a href="https://medium.com/silicon-tribe-techdev/quickguide-to-optimize-apis-in-django-9949fc9cd42">Quickguide to optimize APIs in Django</a></h3>
+									<p>A short guide on a generic approach for low latency in Django.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="https://medium.com/silicon-tribe-techdev/how-does-django-middleware-work-8908f29820ac?source=friends_link&sk=3ddd271772343ba1a9bb94c444efddd5" class="blog-img"><img src="https://miro.medium.com/max/1400/1*o22fbIZ82oppUXc8jHfeDQ.jpeg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<!-- <span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span> -->
+									<h3><a href="https://medium.com/silicon-tribe-techdev/how-does-django-middleware-work-8908f29820ac?source=friends_link&sk=3ddd271772343ba1a9bb94c444efddd5">How does Django middleware work?</a></h3>
+									<p>A simplified explanation of how middlewares work in Django and on writing a custom middleware.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="https://medium.com/silicon-tribe-techdev/10-things-a-a-job-seekers-5867c3b53e1b?source=friends_link&sk=4ae7b3c18e2de09fef6914c121eb6499" class="blog-img"><img src="https://miro.medium.com/max/1400/1*B58UrG6KY8HyLLRm6UqPKg.jpeg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<!-- <span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span> -->
+									<h3><a href="https://medium.com/silicon-tribe-techdev/10-things-a-a-job-seekers-5867c3b53e1b?source=friends_link&sk=4ae7b3c18e2de09fef6914c121eb6499">10 tips for an active job seeker</a></h3>
+									<p>This blog covers 10 points which I learned from my own experiences of job hunt and would help any one looking for a job.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+							<p><a href="https://manu-mathew.medium.com/" class="btn btn-primary btn-lg btn-load-more" target="_blank">Read more at manu-mathew.medium.com</a></p>
 						</div>
 					</div>
 				</div>
@@ -660,7 +577,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-globe-outline"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="#">info@domain.com</a></p>
+									<p><a href="#">manu_mathew@outlook.com</a></p>
 								</div>
 							</div>
 
@@ -669,7 +586,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-map"></i>
 								</div>
 								<div class="colorlib-text">
-									<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+									<p>Bengaluru/Bangalore, India</p>
 								</div>
 							</div>
 
@@ -678,7 +595,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<i class="icon-phone"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://">+123 456 7890</a></p>
+									<p><a href="tel://">+91 9488920497</a></p>
 								</div>
 							</div>
 						</div>
